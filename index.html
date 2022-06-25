@@ -1,0 +1,447 @@
+<!--
+   ~ Copyright (c)
+   ~ @Autor: Guilherme Antônio Ramos da Silva
+   ~ @Data: 27/06/2022
+   ~ @DEscrição: Projeto Web 1 portfólio
+  -->
+
+<!DOCTYPE html>
+
+<html lang="pt" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Guilherme Ramos</title>
+
+        <!-- Meta Tags -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="Portifolio curriculo" name="description"/>
+        <meta content="Guilherme Ramos" name="author"/>
+        <meta name="copyright" content="© 2021 Guilherme Antônio Ramos da Silva" />
+        <meta name="keywords" content="desenvolvimento, php, dev">
+
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="img/favicon/favicon.ico"/>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/c8a12dc4f7.js" crossorigin="anonymous"></script>
+
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header" >
+
+        <!-- HEADER -->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/nova-logo-nome.png" alt="Logo">
+                                <img class="logo-img logo-img-active" src="img/nova-logo-nome.png" alt="Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Navbar  Options -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">Introdução</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experiência</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Trabalho</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contato</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!-- END HEADER -->
+
+        <!-- SLIDER -->
+        <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/principal/01.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="promo-block-divider">
+                            <h1 class="promo-block-title">Guilherme <br/> Ramos</h1>
+                            <p class="promo-block-text">Desenvolvedor Web <i>Full-Stack</i> </p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="https://www.facebook.com/GuilhermeARamosS"  target="_blank" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/oguilherme_ramos/"  target="_blank" class="social-icons"><i class="icon-social-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/guilherme-ant%C3%B4nio-ramos-da-silva-4a85101b1/"  target="_blank" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- SLIDER -->
+
+        <!-- PAGE LAYOUT -->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Introdução</h2>
+                            <p>Um Pouco sobre mim</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <p id="descr_guilherme">
+                                Olá, meu nome é Guilherme Ramos, tenho {idade} anos, amante de música e técnico em Informática, curso feito entre os anos de 2015 e 2017, também sou graduando em Sistemas de Informação e desenvolvedor <i>Full-Stack</i> com foco em aplicações web em PHP.
+                            </p>
+
+                            <p>
+                                Sou um grande apaixonado por tecnologia, desde pequeno me interessei pela área e tive o prazer de crescer e exercer essa profissão. Curioso nato, sempre busco por novos desafios. A modernidade trouxe ao longo das décadas facilidades e vantagens para a sociedade, mas as vezes o sistema precisa de pessoas como eu, que estuda constantemente para não deixar o problema permanecer.
+                            </p>
+                            <p>
+                                Atualmente, sou desenvolvedor <i>Full-Stack</i> php no Senai Soluções Digitais do estado de Santa Catarina, componho a equipe responsável pelos projetos do Departamento Nacional da rede senai de ensino. Em paralelo atuo como desenvolvedor <i>Freelancer</i> na construção de portfólios e sistemas web.
+                            </p>
+                        </div>
+
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>PHP <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>JavaSript <span class="color-heading pull-right">75%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>HTML e CSS <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>PostgreSQL <span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>MySQL <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Experience -->
+        <section id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Experiência</h2>
+                                <p>Homem de ferro, por que choras?</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row row-space-2 margin-b-4">
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-chemistry"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Banco de Dados</h3>
+                                            <p class="margin-b-5">Bancos de Dados relacionais e modelagem de dados</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 md-margin-b-4">
+                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                        <div class="service-element">
+                                            <i class="service-icon color-white icon-screen-tablet"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3 class="color-white">PHP</h3>
+                                            <p class="color-white margin-b-5">Com experiência em desenvolvimento web baseado em frameworks</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="service" data-height="height">
+                                        <div class="service-element">
+                                            <i class="service-icon icon-badge"></i>
+                                        </div>
+                                        <div class="service-info">
+                                            <h3>Front-end</h3>
+                                            <p class="margin-b-5">Noções de front-end com html, css e javascript</p>
+                                        </div>
+                                        <a href="#" class="content-wrapper-link"></a>    
+                                    </div>
+                                </div>
+                            </div>
+                            <!--// end row -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </section>
+        <!-- End Experience -->
+
+        <!-- Work -->
+        <section id="work">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Trabalhos</h2>
+                            <p>Um pouco do meu trabalho.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <!-- PROGRAMAÇÃO -->
+                        <div class="masonry-grid row row-space-2">
+                            <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/atuacoes/prog1.png" alt="Portfolio Image">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Programação</h3>
+                                                <span>Desenvolvimento Web</span>
+                                            </div>
+                                            <div class="row">
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Sou apaixonado por programação, desde meu primeiro contato com esse universo eu não parei mais, durante minha formação como técnico em informática, sempre foquei na área da Web e banco de dados.</p>
+                                                        <p>Atualmente trabalho com desenvolvimento em PHP, com o uso das frameworks: Adianti Framework, Symfony e Laravel, banco de dados relacionais MySql e PostgreSql, voltados para processos de gestão comercial, gerenciamento educacional e APIs.</p>
+                                                        <ul class="list-inline work-popup-tag">
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Programação,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">ERP,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">GoogleApi,</a></li>
+                                                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Banco de dados</a></li>
+                                                        </ul>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END PROGRAMAÇÃO -->
+                            </div>
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- ENG. SOFTWARE -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/atuacoes/eng.png" alt="Image not found" >
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Engenharia de Software</h3>
+                                                <span>Relações cliente-desenvolvedor</span>
+                                            </div>
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Na área de engenharia de <i>software</i> tenho facilidade de desenhar soluções e levantar requisitos para melhor atender aos problemas correntes.</p>
+                                                        <p>Apoiador também do trabalho baseado em metodologias ágeis como o SCRUM e XP .</p>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END ENG. SOFTWARE -->
+                            </div>
+
+                            <!-- CONSULTORIA -->
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/atuacoes/consult.png" alt="Image not found">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Consultoria em T.I.</h3>
+                                                <span>Negócios e infraestrutura</span>
+                                            </div>
+                                                    <div class="margin-t-10 sm-margin-t-0">
+                                                        <p>Graças a minha facilidade em relações interpessoais, tenho um apreço pelas conexões diretas cliente-desenvolvedor para consultoria na área da informática.</p>
+                                                        <p>Presto consultoria para construção de regras de negócio, identificação de problemas, desenvolvimento de sistemas, banco de dados, mercado e na parte de infraestrutura.</p>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END CONSULTORIA -->
+
+                            <!-- FRONT-END -->
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/atuacoes/front-end.png" alt="Image not found">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Front-end</h3>
+                                                <span>Design, UI/UX</span>
+                                            </div>
+                                            <div class="row">
+                                                <p>Explorar o mundo do <i>design</i> e um processo delicado, mas gosto do desafio. Já trabalhei com a criação de identidade visual, banners e flyers com Adobe Photoshop.  </p>
+                                                <p>No desenvolvimento Web, trabalho com frameworks javascript, especialmente vueJs e reactJs, faço uso também frameworks css como Bootstrap e Materialize CSS. Com conhecimentos em Sass. </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END FRONT-END -->
+
+                            <!-- MOBILE -->
+                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/atuacoes/mobile.png" alt="Image not found">
+                                    </div>
+                                    <div class="work-popup-overlay">
+                                        <div class="work-popup-content">
+                                            <a href="javascript:void(0);" class="work-popup-close">Fechar</a>
+                                            <div class="margin-b-30">
+                                                <h3 class="margin-b-5">Mobile</h3>
+                                                <span>Desenvolvimento android e Ios</span>
+                                            </div>
+                                            <div class="row">
+                                                <p>Conhecimentos básicos para desenvolvimento mobile baseado em React Native.</p>
+                                                <p>Construções voltadas em PWA e TWA, aplicações web convertidas para aplicativos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END MOBILE -->
+                        </div>
+                        <!-- End Masonry Grid -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </section>
+        <!-- End Work -->
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row">
+                        <div class="col-sm-3 sm-margin-b-30">
+                            <div class="text-right sm-text-left">
+                                <h2 class="margin-b-0">Contatos</h2>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-8 col-sm-offset-1">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                    <h5><i class="fab fa-whatsapp"></i> WhatsApp</h5>
+                                    <a href="https://wa.me/5564993441336/?text=Ol%C3%A1%2C%20Visitei%20seu%20portfolio%2C%20gostaria%20de%20conversar%21%20" target="_blank" >+55 (64) 99344-1336</a>
+                                </div>
+                                <div class="col-md-4 col-xs-7" style="display: inline-table">
+                                    <h5><i class="fa-solid fa-envelope"></i> Email</h5>
+                                    <a href="mailto:guilherme.antonio@estudante.ifgoiano.edu.br" > guilherme.antonio@estudante.ifgoiano.edu.br</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </section>
+        <!-- End Contact -->
+        <!-- END PAGE LAYOUT -->
+
+        <!-- FOOTER -->
+        <footer class="footer " style=" background-color: black">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0" >
+                            <a class="fweight-700" href="">Guilherme Antônio Ramos da Silva</a>
+                        </p>
+                        <p class="fweight-700" id="texto_rodape">
+                            <i class="fa-solid fa-copyright"></i>
+                            todos os Direitos reservados {ano}
+                        </p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Topo</a>
+
+        <!-- JAVASCRIPTS-->
+
+        <script src="js/calculaIdade.js" type="application/javascript"> </script>
+        <script src="js/anoAtual.js" type="application/javascript"> </script>
+
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
