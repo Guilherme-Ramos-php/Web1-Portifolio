@@ -9,6 +9,7 @@ O projeto trata-se de um website portfólio com informações pessoais e profiss
 ## 👤 Autor
 Guilherme Antônio Ramos da Silva
 
+
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``HTML``
