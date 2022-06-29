@@ -126,12 +126,10 @@ h4 {
   outline: none;
 }
 
-/* Section Seperator */
 .section-seperator {
   border-bottom: 1px solid #edf0f2;
 }
 
-/* Content Wrapper Link */
 .content-wrapper-link {
   position: absolute;
   top: 0;
@@ -143,9 +141,6 @@ h4 {
   text-decoration: none;
 }
 
-/*------------------------------------------------------------------
-  	[Button]
-------------------------------------------------------------------*/
 .btn-theme {
   position: relative;
   display: inline-block;
@@ -248,9 +243,6 @@ fieldset[disabled] .btn-theme {
   padding: 20px 30px;
 }
 
-/*------------------------------------------------------------------
-    [Progress Bar]
-------------------------------------------------------------------*/
 .progress-box .progress {
   box-shadow: none;
   height: 3px;
@@ -262,9 +254,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/*------------------------------------------------------------------
-  	[Social Icons]
-------------------------------------------------------------------*/
 .social-icons {
   display: inline-block;
   width: 40px;
@@ -288,9 +277,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/*------------------------------------------------------------------
-  	[Promo Block]
-------------------------------------------------------------------*/
 .promo-block {
   padding: 220px 0 130px;
 }
@@ -318,9 +304,6 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 35px;
 }
 
-/*------------------------------------------------------------------
-  	[Service]
-------------------------------------------------------------------*/
 .service {
   background: #fff;
   padding: 30px;
@@ -362,10 +345,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/*------------------------------------------------------------------
-  	[Work]
-------------------------------------------------------------------*/
-/* Overlay */
 .work {
   position: relative;
   display: block;
@@ -396,7 +375,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/* Popup */
 .work .work-popup-overlay {
   position: fixed;
   top: 0;
@@ -473,7 +451,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/* Tag */
 .work .work-popup-tag {
   margin: 0;
 }
@@ -486,13 +463,10 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
 }
 
-
-/* Fixed Top */
 .navbar-fixed-top .navbar-collapse {
   max-height: 100%;
 }
 
-/* Navbar */
 .header .navbar {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -501,7 +475,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/* Navbar Toggle */
 .header .navbar-toggle {
   width: 25px;
   height: 25px;
@@ -572,7 +545,7 @@ fieldset[disabled] .btn-theme {
   background: rgba(81, 87, 105, 0);
 }
 
-/* Navbar Logo */
+
 .header .logo {
   width: 150px;
   height: 150px;
@@ -613,14 +586,12 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/* Navbar */
 .header .navbar-nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
 
-/* Nav */
 .header .nav-item {
   position: relative;
   display: block;
@@ -681,10 +652,8 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/* Media Queries below 991px */
+
 @media (max-width: 991px) {
-  /* Bootstrap collapse of navigation with a maximum width: 991px
-    (Change it to any breakpoint you want to be collapsed) */
   .header {
     background: #fff;
   }
@@ -708,7 +677,6 @@ fieldset[disabled] .btn-theme {
   .header .navbar-nav .nav-item {
     float: none;
   }
-  /* Menu Container */
   .header .menu-container:before, .header .menu-container:after {
     content: " ";
     display: table;
@@ -716,14 +684,12 @@ fieldset[disabled] .btn-theme {
   .header .menu-container:after {
     clear: both;
   }
-  /* Logo */
   .header .logo .logo-img-main {
     display: none;
   }
   .header .logo .logo-img-active {
     display: inline-block;
   }
-  /* Navbar Nav */
   .header .nav-item-child {
     color: #515769;
     line-height: 1.4;
@@ -735,9 +701,8 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/* Media Queries below 767px */
+
 @media (max-width: 767px) {
-  /* Menu Container */
   .header .menu-container {
     padding-left: 15px;
     padding-right: 15px;
@@ -759,15 +724,12 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/* Media Queries above 992px */
 @media (min-width: 992px) {
-  /* Navbar */
   .header .navbar-nav-right {
     float: right;
   }
 }
 
-/* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
     background: #fff;
@@ -796,9 +758,6 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/*--------------------------------------------------
-    [Back To Top Theme Button]
-----------------------------------------------------*/
 .back-to-top {
   position: fixed;
   right: 10px;
@@ -838,7 +797,6 @@ fieldset[disabled] .btn-theme {
   text-decoration: none;
 }
 
-/* The Button Becomes Visible */
 .back-to-top.back-to-top-is-visible {
   visibility: visible;
   opacity: .6;
@@ -857,7 +815,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/* If the user keeps scrolling down, the button is out of focus and becomes less visible */
 .back-to-top.back-to-top-fade-out {
   opacity: .4;
 }
@@ -869,9 +826,6 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-/*------------------------------------------------------------------
-  	[Form Control]
-------------------------------------------------------------------*/
 .form-control {
   height: 50px;
   font-size: 14px;
@@ -913,9 +867,6 @@ fieldset[disabled] .btn-theme {
   color: #515769;
 }
 
-/*------------------------------------------------------------------
-  	[Text Colors]
-------------------------------------------------------------------*/
 .color-base {
   color: #17bed2 !important;
 }
@@ -944,9 +895,6 @@ fieldset[disabled] .btn-theme {
   color: #fafafa !important;
 }
 
-/*------------------------------------------------------------------
-  	[Background Colors]
-------------------------------------------------------------------*/
 .bg-color-base {
   background: #17bed2 !important;
 }
@@ -975,9 +923,6 @@ fieldset[disabled] .btn-theme {
   background: #fafafa !important;
 }
 
-/*------------------------------------------------------------------
-    [Row]
-------------------------------------------------------------------*/
 .row-space-2 {
   margin-right: -2px;
   margin-left: -2px;
@@ -988,9 +933,6 @@ fieldset[disabled] .btn-theme {
   padding-right: 2px;
 }
 
-/*--------------------------------------------------
-    [Container Full Width]
-----------------------------------------------------*/
 .container-full-width {
   margin-right: auto;
   margin-left: auto;
@@ -1005,9 +947,6 @@ fieldset[disabled] .btn-theme {
   clear: both;
 }
 
-/*--------------------------------------------------
-    [Container Small]
-----------------------------------------------------*/
 .container-sm {
   padding-right: 15px;
   padding-left: 15px;
@@ -1024,23 +963,18 @@ fieldset[disabled] .btn-theme {
   clear: both;
 }
 
-/* Media Queries below 768px */
 @media (min-width: 768px) {
   .container-sm {
     width: 750px;
   }
 }
 
-/* Media Queries below 1200px */
 @media (min-width: 1200px) {
   .container-sm {
     width: 970px;
   }
 }
 
-/*------------------------------------------------------------------
-  	[Content]
-------------------------------------------------------------------*/
 .content {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1061,17 +995,11 @@ fieldset[disabled] .btn-theme {
   padding-bottom: 100px;
 }
 
-/*------------------------------------------------------------------
-    [Full Width]
-------------------------------------------------------------------*/
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/*--------------------------------------------------
-    [Font Weight]
-----------------------------------------------------*/
 .fweight-300 {
   font-weight: 300 !important;
 }
@@ -1092,9 +1020,6 @@ fieldset[disabled] .btn-theme {
   font-weight: 700 !important;
 }
 
-/*------------------------------------------------------------------
-    [Left margin]
-------------------------------------------------------------------*/
 .margin-l-0 {
   margin-left: 0 !important;
 }
@@ -1111,9 +1036,6 @@ fieldset[disabled] .btn-theme {
   margin-left: 20px !important;
 }
 
-/*------------------------------------------------------------------
-    [Right margin]
-------------------------------------------------------------------*/
 .margin-r-0 {
   margin-right: 0 !important;
 }
@@ -1130,9 +1052,7 @@ fieldset[disabled] .btn-theme {
   margin-right: 20px !important;
 }
 
-/*------------------------------------------------------------------
-    [Top margin]
-------------------------------------------------------------------*/
+
 .margin-t-0 {
   margin-top: 0 !important;
 }
@@ -1165,9 +1085,6 @@ fieldset[disabled] .btn-theme {
   margin-top: 60px !important;
 }
 
-/*------------------------------------------------------------------
-    [Bottom margin]
-------------------------------------------------------------------*/
 .margin-b-0 {
   margin-bottom: 0 !important;
 }
@@ -1220,9 +1137,6 @@ fieldset[disabled] .btn-theme {
   margin-bottom: 100px !important;
 }
 
-/*------------------------------------------------------------------
-    [Top margin below 992px]
-------------------------------------------------------------------*/
 @media (max-width: 992px) {
   .md-margin-b-0 {
     margin-bottom: 0 !important;
@@ -1265,9 +1179,6 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/*------------------------------------------------------------------
-    [Top margin below 768px]
-------------------------------------------------------------------*/
 @media (max-width: 768px) {
   .sm-margin-b-0 {
     margin-bottom: 0 !important;
@@ -1310,9 +1221,6 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/*------------------------------------------------------------------
-    [Top margin below 480px]
-------------------------------------------------------------------*/
 @media (max-width: 480px) {
   .xs-margin-b-0 {
     margin-bottom: 0 !important;
@@ -1355,9 +1263,6 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/*--------------------------------------------------
-    [Height]
-----------------------------------------------------*/
 .height-100 {
   height: 100px !important;
 }
@@ -1378,9 +1283,6 @@ fieldset[disabled] .btn-theme {
   height: 500px !important;
 }
 
-/*------------------------------------------------------------------
-    [Top margin below 992px]
-------------------------------------------------------------------*/
 @media (max-width: 992px) {
   .md-text-center {
     text-align: center;
@@ -1393,9 +1295,6 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/*------------------------------------------------------------------
-    [Top margin below 768px]
-------------------------------------------------------------------*/
 @media (max-width: 768px) {
   .sm-text-center {
     text-align: center;
@@ -1408,9 +1307,6 @@ fieldset[disabled] .btn-theme {
   }
 }
 
-/*------------------------------------------------------------------
-    [Top margin below 480px]
-------------------------------------------------------------------*/
 @media (max-width: 480px) {
   .xs-text-center {
     text-align: center;
